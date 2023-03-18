@@ -62,7 +62,7 @@ The `Container` widget is a useful tool for creating boxes with custom sizes, pa
 # Dependencies
 This program depends on the following packages:
 
->`flutter/material.dart:` The Material Design framework for Flutter.
+- `flutter/material.dart:` The Material Design framework for Flutter.
 
 # Contributions
 Contributions to this program are welcome. If you want to contribute, please follow these steps:
