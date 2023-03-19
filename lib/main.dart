@@ -18,19 +18,21 @@ class MyApp extends StatelessWidget {
           ),
           backgroundColor: Colors.teal,
         ),
-        body: Container(
-          /* width: 100,
-          height: 100, */
-          margin: const EdgeInsets.all(8),
-          padding: const EdgeInsets.all(10),
-          constraints: const BoxConstraints(
-              maxHeight: 200, maxWidth: 200, minHeight: 100, minWidth: 100),
-          color: Colors.purple,
-          alignment: Alignment.center,
-          child: const Text(
-            'Hello World',
-            style: TextStyle(fontSize: 24),
-            textAlign: TextAlign.center,
+        body: Center(
+          child: Container(
+            /* width: 100,
+            height: 100, */
+            //margin: const EdgeInsets.all(8),
+            padding: const EdgeInsets.all(50),
+            constraints: const BoxConstraints(
+                maxHeight: 200, maxWidth: 200, minHeight: 100, minWidth: 100),
+            color: Colors.purple,
+            alignment: Alignment.center,
+            child: const Text(
+              'Hello World',
+              style: TextStyle(fontSize: 24),
+              textAlign: TextAlign.center,
+            ),
           ),
         ),
       ),
