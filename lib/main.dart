@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.teal,
         ),
         body: Container(
+          /* width: 100,
+          height: 100, */
           margin: const EdgeInsets.all(8),
           padding: const EdgeInsets.all(10),
           constraints: const BoxConstraints(
